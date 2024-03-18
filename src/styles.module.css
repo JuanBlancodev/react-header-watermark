@@ -1,9 +1,44 @@
-/* add css module styles here (optional) */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
 
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+.watermark__header{
+  font-family: 'Oswald', sans-serif;
+  background-color: #333;
+  color: #fff;
   text-align: center;
+}
+
+.watermark__title{
+  margin: 0;
+}
+
+.watermark__nav .watermark__ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.watermark__nav .watermark__ul .watermark__li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-right: 1rem;
+}
+
+.watermark__nav .watermark__ul .watermark__li svg{
+  width: 18px;
+  height: 18px;
+  fill: white;
+}
+
+.watermark__nav .watermark__ul .watermark__li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.watermark__nav .watermark__ul .watermark__li a:hover {
+  text-decoration: underline;
 }

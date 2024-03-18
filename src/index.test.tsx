@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import HeaderWatermark from '.'
 
-describe('ExampleComponent', () => {
+describe('HeaderWatermark', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(HeaderWatermark).toBeTruthy()
   })
 })
