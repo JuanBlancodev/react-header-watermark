@@ -6,13 +6,14 @@ import HeaderNav from './components/HeaderNav'
 
 interface Props {
   projectName: string
+  github: string
 }
 
-const HeaderWatermark = ({ projectName }: Props) => {
+const HeaderWatermark = ({ projectName, github }: Props) => {
   return (
     <header className={styles.watermark__header}>
       <HeaderTitle projectName={projectName} />
-      <HeaderNav />
+      <HeaderNav github={github} />
     </header>
   )
 }
