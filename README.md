@@ -19,16 +19,17 @@ yarn add react-header-watermark
 ## Usage
 
 ```tsx
-import React, { Component } from 'react'
-
-import HeaderWatermark from 'react-header-watermark-'
+import React from 'react'
+import HeaderWatermark from 'react-header-watermark'
 import 'react-header-watermark/dist/index.css'
 
-class Example extends Component {
-  render() {
-    return <HeaderWatermark projectName={"Título del proyecto"} github={"https://github.com/usuario"} />
-  }
+function Example(){
+  return (
+    <HeaderWatermark projectName={"Title of the project"} github={"https://github.com/usuario"} />
+  )
 }
+
+export default Example
 ```
 
 ## Screenshot
