@@ -1,13 +1,19 @@
-# react-header-watermark-ts
+# react-header-watermark
 
 > Marca de agua para mis proyectos @JuanBlancodev
 
-[![NPM](https://img.shields.io/npm/v/react-header-watermark-ts.svg)](https://www.npmjs.com/package/react-header-watermark-ts) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-header-watermark.svg)](https://www.npmjs.com/package/react-header-watermark) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
+npm
 ```bash
-npm install --save react-header-watermark-ts
+npm install react-header-watermark
+```
+
+yarn
+```bash
+yarn add react-header-watermark
 ```
 
 ## Usage
@@ -15,16 +21,19 @@ npm install --save react-header-watermark-ts
 ```tsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-header-watermark-ts'
-import 'react-header-watermark-ts/dist/index.css'
+import HeaderWatermark from 'react-header-watermark-'
+import 'react-header-watermark/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <HeaderWatermark projectName={"Título del proyecto"} github={"https://github.com/usuario"} />
   }
 }
 ```
 
+## Screenshot
+![Captura de pantalla](./screenshots/screehnshot.png)
+
 ## License
 
-MIT © [JuanBlancodev](https://github.com/JuanBlancodev)
+[JuanBlancodev](https://github.com/JuanBlancodev)
