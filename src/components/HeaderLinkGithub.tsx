@@ -7,7 +7,7 @@ interface Props {
 const HeaderLinkGithub = ({ github }: Props) => {
   return (
     <a href={github} target='_blank' rel='noreferrer'>
-      Mis repositorios
+      Perfil de Github
     </a>
   )
 }
